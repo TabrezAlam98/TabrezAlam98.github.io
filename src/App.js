@@ -1,20 +1,36 @@
-import { Box } from '@chakra-ui/react'
-import './App.css';
-import Home from './Pages/Home';
-import About from './Pages/About'
-import Skills from './Pages/Skills'
-import Project from './Pages/Project';
-import Contact from './Pages/Contact';
+import About from "./Components/About/About";
+import Contact from "./Components/Contact/Contact";
+import Hero from "./Components/Hero/Hero";
 
+import  {Navbar}  from "./Components/Navbar";
+import Navbar1 from "./Components/Navbar1";
+import Projects from "./Components/Projects/Projects";
+import Skills from "./Components/Skills/Skills";
+
+
+import FixSocialIcon from "./Components/SocialIcon/FixSocialIcon";
 
 function App() {
   return (
-    <div className="App">
-      <Home/>
-      <About/>
-      <Skills/>
-      <Project/>
-      <Contact/>
+    <div>
+      <Navbar1/>
+      {/* <Navbar/> */}
+      <section id="hero">
+          <Hero />
+          </section>
+          <section id="about-me">
+          <About />
+          </section>
+          
+         
+          <section id='skills'>
+          <Skills  />
+          </section>
+          <Projects />
+          <section id="contact">
+          <Contact />
+          </section>
+          <FixSocialIcon />
     </div>
   );
 }
