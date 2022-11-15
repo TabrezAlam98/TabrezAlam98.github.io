@@ -20,7 +20,7 @@ function About() {
           <div style={{width:'177px',height:'3px',backgroundColor:'rgb(164,49,88)',margin:'auto'}}></div>
           
         </div>
-        <div className="BigCard">
+        <div className="BigCard bg">
           <Image>
             <Avatar
               alt="Tabrez img"

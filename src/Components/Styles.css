@@ -29,8 +29,6 @@ a {
   transform:scale(1.5);
 } */
 
-
-
 .navMain > div {
   border: 1px solid black;
   display: flex;
@@ -189,6 +187,7 @@ padding: 10px;
   display: flex;
   justify-content: space-around;
 }
+
 @media only screen and (min-width:0px) and (max-width:650px){
   .main{
   height: 50px;

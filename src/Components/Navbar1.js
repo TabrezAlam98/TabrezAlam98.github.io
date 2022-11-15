@@ -31,7 +31,7 @@ const Navbar1 = () => {
             setIsPage("about");
           }}
           style={isPage === "about" ? { color: "black" } : null}>
-          <a href="#about-me">About</a>
+          <a href="#about-me">AboutMe</a>
         </div>
         <div className="div2"
         onClick={() => {
@@ -57,14 +57,15 @@ const Navbar1 = () => {
           style={isPage === "Contact" ? { color: "black" } : null}>
           <a href="#contact">Contact</a>
         </div>
-        <div className="div2">
-          <Link
-            to="/files/Tabrez-Alam-Resume.pdf"
-            target="_blank"
-            download
+        <div className="resume">
+          <a
+            // to="/files/Tabrez-Alam-Resume.pdf"
+            href="https://drive.google.com/file/d/1x34PqlkE72jnRbecU3JIXg1SQQEEylqm/view?usp=share_link"
+             target="_blank"
+            
           >
             Resume
-          </Link>
+          </a>
         </div>
       </div>
     </div>

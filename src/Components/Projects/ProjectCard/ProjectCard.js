@@ -8,6 +8,7 @@ import {
   Stack,
   BtnGroup,
 } from "./ProjectCardElements";
+import CalendarAndStats from '../../CalendarAndStats/CalendarAndStats';
 function ProjectCard() {
   return (
     <>
@@ -44,6 +45,7 @@ function ProjectCard() {
           </CardRight>
         </Card>
       ))}
+      <CalendarAndStats/>
     </>
   );
 }

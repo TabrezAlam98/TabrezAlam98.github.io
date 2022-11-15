@@ -1,5 +1,6 @@
 import React from "react";
 import { stackList } from "../../data/ProjectData";
+import CalendarAndStats from "../CalendarAndStats/CalendarAndStats";
 import Calendra from "../Calendra/Calendra";
 import {
   Technologies,
@@ -41,7 +42,8 @@ function Skills() {
         </div>
       </div>
     </ContactWrapper>
-    <Calendra/>
+    {/* <Calendra/> */}
+    {/* <CalendarAndStats/> */}
  </> );
 }
 
