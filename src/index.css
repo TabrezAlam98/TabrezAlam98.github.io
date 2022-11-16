@@ -66,7 +66,7 @@ video {
 }
 
 .btn {
-  border: 2px solid rgb(57, 134, 250);
+  border: 2px solid rgb(131,40,57);
   padding: 10px 1rem;
   border-radius: 5px;
   cursor: pointer;
@@ -106,7 +106,7 @@ video {
 }
 
 .PrimaryBtn {
-  background: rgb(57, 134, 250);
+  background: rgb(131,40,57);
   color: #f6f6f6;
 }
 
@@ -116,7 +116,7 @@ video {
 }
 
 .SecondarBtn:hover {
-  background: rgb(57, 134, 250);
+  background: rgb(131,40,57);
   color: #fff;
 }
 
@@ -140,12 +140,13 @@ video {
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
-  background-color: lavenderblush;
+  border: 3px solid rgb(164,49,88);
   /* box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
     0 4px 6px -2px rgba(0, 0, 0, 0.05); */
 }
 .bg{
-  background-color: rgb(168, 220, 168);
+  /* background-color: rgb(218, 152, 174); */
+  border: 3px solid rgb(164,49,88);
 }
 
 .AboutBio,

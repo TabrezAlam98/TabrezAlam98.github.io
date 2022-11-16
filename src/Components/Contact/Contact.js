@@ -14,7 +14,7 @@ function Contact() {
       <div style={{width:'177px',height:'3px',marginBottom:'50px',backgroundColor:'white',margin:'auto'}}></div>
       {/* <div style={{width:'140px',height:'3px',backgroundColor:'white',margin:'auto',marginTop:'5px'}}></div>
       <div style={{width:'100px',height:'3px',backgroundColor:'green',margin:'auto',marginTop:'5px'}}></div> */}
-      <h1 className="name"> <span style={{color:'red'}}>Tabrez Alam</span> </h1>
+      <h1 className="name"> <span style={{color:'rgb(131,40,57)'}}>Tabrez Alam</span> </h1>
       <div className="contacts" >
 
      <div className="linkedin" style={{width:'120px',display:'flex',margin:'auto'}}>

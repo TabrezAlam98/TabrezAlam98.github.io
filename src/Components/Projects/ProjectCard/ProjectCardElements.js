@@ -17,7 +17,8 @@ export const Card = styled.div`
  
 export const CardLeft = styled.div`
 
-border: 5px solid #d24d57;
+// border: 5px solid #d24d57;
+border: 5px solid rgb(164,49,88);
   background: #151418;
   border-radius: 5px;
   // padding: 5px;
