@@ -57,46 +57,12 @@ a {
   margin-top: 60px;
 }
 
-/* Projects */
-
-/* .projectMain {
-  margin-top: 70px;
-  font-size: 20px;
-}
-
-.projectMain > div {
-  box-sizing: border-box;
-  padding: 10px 5%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.projectHead {
-  font-size: 30px;
-  font-weight: 600;
-}
-
-.cardDiv {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.AllCards {
-  margin: 10px auto;
-  max-width: 1200px;
-} */
 
 .projectmaindiv {
   margin-top: 100px;
 }
 
 .download_resume{
-
-
-  /* border:1px solid rgb(131,40,57); */
   background-color: white;
   color:rgb(131,40,57);
   border-radius: 5px;
