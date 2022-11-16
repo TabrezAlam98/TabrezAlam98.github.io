@@ -40,9 +40,6 @@ a {
 .navMain > div > div > a {
   text-decoration: none;
 }
-
-
-
 .download {
   font-size: 15px;
   border: 1px solid gray;
@@ -55,14 +52,6 @@ a {
   text-decoration: none;
   color: gray;
 }
-
-/* .homeSkills {
-  margin: 40px auto;
-  box-sizing: border-box;
-  border: 2px solid gainsboro;
-  width: 1000px;
-  height: 280px;
-} */
 
 .heroMain {
   margin-top: 60px;
