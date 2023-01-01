@@ -1,12 +1,15 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import "./Styles.css"; 
+
 
 const Navbar1 = () => {
   const [isPage, setIsPage] = useState("hero");
 
 
 
-  return (
+
+  return (<>
     <div className="main">
       <div className="nav1">
         <div className="div1"
@@ -14,8 +17,8 @@ const Navbar1 = () => {
             setIsPage("hero");
           }}
           style={isPage === "hero" ? { color: "black" } : null}
-          >
-          <a href="#">TA</a>
+          >TA
+          {/* <a href="#"><img style={{width:"100px",height:"50px"}} src="/images/logo.jpg"/></a> */}
         </div>
       </div>
       <div className="nav2">
@@ -69,7 +72,9 @@ const Navbar1 = () => {
         </div>
       </div>
     </div>
-  );
+
+ 
+  </>);
 };
 
 export default Navbar1;

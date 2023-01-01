@@ -79,6 +79,7 @@ a {
 /* ---------navbar1------------------- */
 
 .main{
+  
   top: 0px;
   display: flex;
   justify-content: space-between;
@@ -93,6 +94,7 @@ a {
   background-color: white;
   z-index: 100;
 padding: 10px;
+
 }
 .nav1{
   width: 20%;
