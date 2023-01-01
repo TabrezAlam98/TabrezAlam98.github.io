@@ -63,7 +63,7 @@ const Navbar1 = () => {
         <div className="resume">
           <a
             // to="/files/Tabrez-Alam-Resume.pdf"
-            href="https://drive.google.com/file/d/1x34PqlkE72jnRbecU3JIXg1SQQEEylqm/view?usp=share_link"
+            href="https://drive.google.com/file/d/1wjdmzSpw8VOgXTuYlmQGE2A59dKmi841/view?usp=share_link"
              target="_blank"
             
           >

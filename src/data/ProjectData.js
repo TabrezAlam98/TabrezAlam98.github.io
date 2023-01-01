@@ -1,11 +1,21 @@
-// ----------------------Project List----------------- 
+// ----------------------Project List-----------------
 export const ProjectList = [
+  {
+    img: "/images/fashion_club.png",
+    title: "Fashion Club ",
+    description:
+      "Fashion club is An Ecommerce website that deals in luxury fashion accessories like Clothing, Shoes, Bags, Accessories, Jewelry etc.",
+
+    tech_stack: "React, Redux, Chakra-ui, Node.js, Express.js, MongonDB",
+    github_url: "https://github.com/TabrezAlam98/Fashion-Club",
+    demo_url: "https://fashion-club-ms.netlify.app/",
+  },
   {
     img: "/images/fitmeals.png",
     title: "Fitmeals Clone",
     description:
-    "A web application especially created for Food Delivery , Healthy Food,Fitness Diet, Fitness meal.",
-    
+      "A web application especially created for Food Delivery , Healthy Food,Fitness Diet, Fitness meal.",
+
     tech_stack: " CSS, Javascript, React, Redux",
     github_url: "https://github.com/Arfeen98/FitMealsCLone",
     demo_url: "https://flourishing-brigadeiros-066ec5.netlify.app/",
@@ -15,38 +25,25 @@ export const ProjectList = [
     title: "Shoppers Stop Clone",
     description:
       "A Shoppers Stop web application created for buying clothes, handbags , shoes,jewellery ,  cosmetics , health and beauty products",
-      
+
     tech_stack: "Html, Css, Javascript",
     github_url: "https://github.com/mshakir082/Shoppers_Stop-Clone",
-    demo_url:
-      "https://steady-bavarois-32dc0a.netlify.app/",
-  },
-  {
-    img: "/images/milaap.png",
-    title: "Milaap clone ",
-    description:
-      "Milaap is an online crowdfunding platform that enables anyone across India to raise funds for healthcare, education, sports, disaster relief and other personal causes, with great ease.",
-      
-    tech_stack: "Html, Css, Javascript,React, Redux, Chakra-ui",
-    github_url: "https://github.com/TabrezAlam98/obscene-wrist-233",
-    demo_url:
-      "https://obscene-wrist-233-new.vercel.app/",
-  },
-  {
-    img: "/images/hotjar.png",
-    title: "Hotjar clone ",
-    description:
-      "Hotjar is a product experience insights tool that gives you behavior analytics and feedback data to help you empathize with and understand your customers through tools like Heatmaps, Session Recordings, Surveys, and a Feedback widget.",
-      
-    tech_stack: "Html, Css, Javascript,React, Chakra-ui",
-    github_url: "https://github.com/TabrezAlam98/delicate-rabbits-5701",
-    demo_url:
-      "https://hotjar-clone-tabrezalam98.vercel.app/",
+    demo_url: "https://steady-bavarois-32dc0a.netlify.app/",
   },
 
+  {
+    img: "/images/form_buddy.png",
+    title: "Form Buddy ",
+    description:
+      "Farm-Buddy is a online pharmacy & medical stores offering pharmaceutical and healthcare products across various categories .You can an order on our website/app by just few clicks.",
+
+      tech_stack: "React, Redux, Chakra-ui, Node.js, Express.js, MongonDB",
+    github_url: "https://github.com/TabrezAlam98/Farm-Buddy.com",
+    demo_url: "https://pharmbuddy.vercel.app/",
+  },
 ];
 
-// ----------------------Skills----------------- 
+// ----------------------Skills-----------------
 
 export const stackList = [
   {

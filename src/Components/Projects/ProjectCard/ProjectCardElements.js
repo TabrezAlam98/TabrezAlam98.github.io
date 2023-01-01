@@ -56,7 +56,7 @@ export const CardRight = styled.div`
   p {
     font-weight: 400;
     max-width: 400px;
-    margin-top: 10px;
+    margin-top: 1px;
     margin-bottom: 1rem;
     color: rgba(0, 0, 0, 0.815);
     text-align: center;
@@ -83,7 +83,7 @@ export const Stack = styled.div`
   .tags {
     font-size: 15px;
     font-weight: 400;
-    margin-left: 5px;
+    margin-left: 7px;
   }
 `;
 
@@ -92,10 +92,6 @@ export const BtnGroup = styled.div`
   display: flex;
   align-items: center;
   
-    .btn:hover{
-      transition:transform 1s;
-    cursor:zoom-in;
-    transform:scale(1.2);
-    }
+   
   
 `;

@@ -42,7 +42,8 @@ a {
 }
 .download {
   font-size: 15px;
-  border: 1px solid gray;
+  padding: 10px;
+  border: 1px solid rgb(128, 128, 128);
   width: fit-content;
   border-radius: 5px;
   /* margin-top: 10px; */

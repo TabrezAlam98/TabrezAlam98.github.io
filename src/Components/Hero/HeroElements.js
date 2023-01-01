@@ -67,6 +67,7 @@ export const HeroLeft = styled.div`
 
   .download{
     background-color:rgb(131,40,57);
+    margin-top:20px;
    }
   .btn{
     color:white;
@@ -76,15 +77,11 @@ export const HeroLeft = styled.div`
     background-color:white;
     border:2px solid rgb(131,40,57);
     color:rgb(131,40,57);
-    transition:transform 1s;
-    cursor:zoom-in;
-    transform:scale(1.2);
+  
   }
   .btn:hover{
     color:rgb(131,40,57);
-    transition:transform 1s;
-    cursor:zoom-in;
-    transform:scale(1.2);
+   
   }
  
 
