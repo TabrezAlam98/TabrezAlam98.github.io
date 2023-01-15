@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const HeroContainer = styled.div`
-// border:1px solid red;
+//  border:1px solid red;
 text-align:center;
 
   padding-bottom: 2rem;
@@ -42,7 +42,10 @@ i{
     cursor:pointer;
 }
 i:hover{
-    color:blue;
+    color:rgb(221, 89, 89);
+}
+a:hover{
+    color:rgb(221, 89, 89);
 }
 p{
     color:white;

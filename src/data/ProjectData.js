@@ -6,7 +6,7 @@ export const ProjectList = [
     description:
       "Fashion club is An Ecommerce website that deals in luxury fashion accessories like Clothing, Shoes, Bags, Accessories, Jewelry etc.",
 
-    tech_stack: "React, Redux, Chakra-ui, Node.js, Express.js, MongonDB",
+    tech_stack: "React, Redux, Chakra-ui, Node.js, Express.js, MongoDB",
     github_url: "https://github.com/TabrezAlam98/Fashion-Club",
     demo_url: "https://fashion-club-ms.netlify.app/",
   },
@@ -37,7 +37,7 @@ export const ProjectList = [
     description:
       "Farm-Buddy is a online pharmacy & medical stores offering pharmaceutical and healthcare products across various categories .You can an order on our website/app by just few clicks.",
 
-      tech_stack: "React, Redux, Chakra-ui, Node.js, Express.js, MongonDB",
+      tech_stack: "React, Redux, Chakra-ui, Node.js, Express.js, MongoDB",
     github_url: "https://github.com/TabrezAlam98/Farm-Buddy.com",
     demo_url: "https://pharmbuddy.vercel.app/",
   },
