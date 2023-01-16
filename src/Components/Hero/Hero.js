@@ -27,8 +27,8 @@ function Hero() {
            
             <h5>Full Stack Web Developer</h5>
             <p style={{ fontWeight: "500" }}>I am from Siddharth Nagar, Utter Pradesh.</p>
-            <p style={{ fontWeight: "500" }}>Phone - 9554445594</p>
-            <p style={{ fontWeight: "500" }}>Email - tabrezalamyci1@gmail.com</p>
+            <p style={{ fontWeight: "500" ,marginTop:'10px'}}>Phone - 9554445594</p>
+            <p style={{ fontWeight: "500" ,marginTop:'10px'}}>Email - tabrezalamyci1@gmail.com</p>
             <div className="download"    >
               <Link
               
