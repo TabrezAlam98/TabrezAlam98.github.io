@@ -22,7 +22,6 @@ text-align:center;
       font-size:50px;
   }
 .contacts{
-    // border:1px solid black;
     // display:flex;
     margin-top:20px;
     justify-content: center;
