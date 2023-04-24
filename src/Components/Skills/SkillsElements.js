@@ -3,6 +3,9 @@ import styled from "styled-components";
 export const ContactWrapper = styled.div`
   margin-top: 5rem;
   margin-bottom: 5rem;
+  .skills-card{
+    border:1px;
+  }
 `;
 
 export const Image = styled.div`

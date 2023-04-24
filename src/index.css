@@ -173,7 +173,7 @@ video {
   margin-top: -1rem;
 }
 
-/* ------------------------------------ Media for Container */
+/*  Media for Container */
 @media (min-width: 576px) {
   .Container {
     max-width: 350px;

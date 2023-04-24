@@ -2,7 +2,8 @@ import styled from "styled-components";
 
 export const HeroContainer = styled.div`
   padding-bottom: 2rem;
-  padding-top: 4rem;
+  // padding-top: 4rem;
+  margin-top:18px;
   padding-right: 1rem;
   padding-left: 1rem;
   margin-right: auto;
@@ -44,6 +45,9 @@ export const HeroLeft = styled.div`
   align-items: flex-start;
   text-align: left;
   flex: 1;
+  #user-detail-intro{
+    display: flex;
+  }
 
   h1 {
     font-size: 3rem;
@@ -101,5 +105,7 @@ export const HeroRight = styled.div`
   cursor:zoom-in;
   transform:scale(1.1);
   }
- 
+ .home-img{
+ border:1px solid black;
+ }
 `;

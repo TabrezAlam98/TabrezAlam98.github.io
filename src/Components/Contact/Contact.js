@@ -72,6 +72,7 @@ function Contact() {
             </div>
 
             <div
+            id="contact-github"
               className="linkedin"
               style={{
                 width: "400px",

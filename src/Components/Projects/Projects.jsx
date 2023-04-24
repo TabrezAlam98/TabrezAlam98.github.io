@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard/ProjectCard";
 function Projects() {
   return (
     <>
-      <div className="projectmaindiv">
+      <div className="projectmaindiv" >
         <div className="ProjectWrapper" id="projects">
           <div className="Container" style={{border:'1px solid white '}} >
             <div className="SectionTitle">
