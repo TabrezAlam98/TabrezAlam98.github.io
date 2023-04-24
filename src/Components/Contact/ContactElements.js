@@ -36,7 +36,6 @@ text-align:center;
   text-align: center;
 }
 .contacts>div{
-    // border:1px solid black;
     margin-top:20px;
     margin-left:10px;
     margin-right:10px;
