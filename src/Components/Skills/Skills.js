@@ -1,7 +1,6 @@
 import React from "react";
 import { stackList } from "../../data/ProjectData";
-import CalendarAndStats from "../CalendarAndStats/CalendarAndStats";
-import Calendra from "../Calendra/Calendra";
+
 import {
   Technologies,
   Tech,
@@ -12,8 +11,8 @@ import {
 function Skills() {
   return (
     <>
-    <ContactWrapper id="about">
-      <div className="Container" style={{border:'1px solid white'}} >
+    <ContactWrapper >
+      <div className="Container" id="skills" style={{border:'1px solid white'}} >
         <div className="SectionTitle">
           <div
             style={{
@@ -42,8 +41,6 @@ function Skills() {
         </div>
       </div>
     </ContactWrapper>
-    {/* <Calendra/> */}
-    {/* <CalendarAndStats/> */}
  </> );
 }
 

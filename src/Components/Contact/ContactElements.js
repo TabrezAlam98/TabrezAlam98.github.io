@@ -28,6 +28,13 @@ text-align:center;
     justify-content: center;
    
 }
+#contact-email{
+  font-size: 22px;
+  margin-left: 10px;
+  margin-top: 3px;
+  margin-bottom:3px;
+  text-align: center;
+}
 .contacts>div{
     // border:1px solid black;
     margin-top:20px;

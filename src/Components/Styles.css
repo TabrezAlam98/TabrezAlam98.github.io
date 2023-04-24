@@ -79,7 +79,7 @@ a {
     
 /* ---------navbar1------------------- */
 
-.main{
+#nav-menu{
   
   top: 0px;
   display: flex;
@@ -102,7 +102,7 @@ padding: 10px;
 
   
 }
-.main>div>div{
+#nav-menu>div>div{
   color: rgb(153,44,73);
 }
 .nav2{
@@ -112,7 +112,7 @@ padding: 10px;
 }
 
 @media only screen and (min-width:0px) and (max-width:650px){
-  .main{
+  #nav-menu{
   height: 50px;
   margin: auto;
   font-size: 13px;
@@ -132,7 +132,7 @@ padding: 10px;
 }
 }
 @media only screen and (min-width:650px) and (max-width:900px){
-  .main{
+  #nav-menu{
  
   width: 100%;
   margin: auto;

@@ -4,6 +4,18 @@ import { HeroContainer } from "./ContactElements";
 function Contact() {
   return (
     <>
+      {/* <svg
+      className="first_svg"
+        style={{ marginBottom: "-320px" }}
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320"
+      >
+        <path
+          fill="rgb(131,40,57)"
+          fill-opacity="1"
+          d="M0,64L60,96C120,128,240,192,360,186.7C480,181,600,107,720,90.7C840,75,960,117,1080,133.3C1200,149,1320,139,1380,133.3L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+        ></path>
+      </svg> */}
       <svg
         style={{ marginBottom: "-205px" }}
         xmlns="http://www.w3.org/2000/svg"
@@ -87,12 +99,13 @@ function Contact() {
                 ></i>
               </a>
               <p
-                style={{
-                  fontSize: "19px",
-                  marginLeft: "10px",
-                  marginTop: "1px",
-                  textAlign: "center",
-                }}
+              id="contact-email"
+                // style={{
+                //   fontSize: "19px",
+                //   marginLeft: "10px",
+                //   marginTop: "1px",
+                //   textAlign: "center",
+                // }}
               >
                 {" "}
                 : tabrezalamyci1@gmail.com
@@ -105,7 +118,7 @@ function Contact() {
      </div> */}
 
             <div
-              className="phone"
+              id="contact-phone"
               style={{
                 display: "flex",
                 marginTop: "15px",

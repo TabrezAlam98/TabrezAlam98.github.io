@@ -5,12 +5,8 @@ import "./Styles.css";
 
 const Navbar1 = () => {
   const [isPage, setIsPage] = useState("hero");
-
-
-
-
   return (<>
-    <div className="main">
+    <div id="nav-menu">
       <div className="nav1">
         <div className="div1"
          onClick={() => {
