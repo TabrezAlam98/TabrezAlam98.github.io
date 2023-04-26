@@ -15,7 +15,7 @@ import {
 function Hero() {
   return (
     <>
-    <div  id="user-detail-intro">
+    <div  id="home">
       <HeroContainer>
         <HeroWrapper>
           <HeroLeft>
