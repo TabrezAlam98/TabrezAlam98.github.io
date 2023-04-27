@@ -17,22 +17,22 @@ const Navbar1 = () => {
           {/* <a href="#"><img style={{width:"100px",height:"50px"}} src="/images/logo.jpg"/></a> */}
         </div>
       </div>
-      <div className="nav2">
-        <div className="div2"
+      <div className="nav-link">
+        <div className="home"
         onClick={() => {
             setIsPage("hero");
           }}
           style={isPage === "hero" ? { color: "black" } : null}>
           <a href="#">Home</a>
         </div>
-        <div className="div2"
+        <div className="about"
          onClick={() => {
             setIsPage("about");
           }}
           style={isPage === "about" ? { color: "black" } : null}>
           <a href="#about-me">AboutMe</a>
         </div>
-        <div className="div2"
+        <div className="skills"
         onClick={() => {
             setIsPage("skill");
           }}
@@ -41,7 +41,7 @@ const Navbar1 = () => {
           <a href="#skills">Skills</a>
         </div>
         <div
-          className="div2"
+          className="projects"
           onClick={() => {
             setIsPage("project");
           }}
