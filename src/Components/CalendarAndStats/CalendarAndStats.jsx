@@ -4,14 +4,7 @@ import GithubCalendar from "react-github-calendar";
 const CalendarAndStats = () => {
   return (
     <MainContainer >
-      <h1
-        style={{
-          textTransform: "uppercase",
-          textAlign: "center",
-          fontSize: "40px",
-          marginTop: "60px",
-          fontFamily: "'Trebuchet MS', sans-serif",
-        }}
+      <h1 id="github-stats-card"
       >
         Days I Worked
       </h1>
@@ -90,6 +83,13 @@ const MainContainer = styled.div`
     justify-content: center;
     border-radius: 50px;
     margin-bottom: 50px;
+  }
+  #github-stats-card{
+    text-transform:uppercase;
+    text-align:center;
+    font-size:40px;
+    margin-top:60px;
+    font-family:'Trebuchet MS', sans-serif;
   }
 
   .stats > img {
