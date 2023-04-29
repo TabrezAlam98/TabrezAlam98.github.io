@@ -5,7 +5,7 @@ const CalendarAndStats = () => {
   return (
     <MainContainer >
       <h1 
-       id="github-stats-card"
+      
       style={{
          textTransform:"uppercase",
         textAlign:"center",
@@ -53,7 +53,7 @@ const CalendarAndStats = () => {
           margin: "auto",
         }}
       ></div>
-      <div className="stats">
+      <div className="stats"  id="github-stats-card">
         <img
           align="center"
           src="https://github-readme-stats.vercel.app/api?username=TabrezAlam98&show_icons=true&locale=en"
