@@ -18,21 +18,21 @@ const Navbar1 = () => {
         </div>
       </div>
       <div className="nav-link">
-        <div className="home"
+        <div className="nav-link home"
         onClick={() => {
             setIsPage("hero");
           }}
           style={isPage === "hero" ? { color: "black" } : null}>
           <a href="#">Home</a>
         </div>
-        <div className="about"
+        <div className="nav-link about"
          onClick={() => {
             setIsPage("about");
           }}
           style={isPage === "about" ? { color: "black" } : null}>
           <a href="#about-me">AboutMe</a>
         </div>
-        <div className="skills"
+        <div className="nav-link skills"
         onClick={() => {
             setIsPage("skill");
           }}
@@ -41,7 +41,7 @@ const Navbar1 = () => {
           <a href="#skills">Skills</a>
         </div>
         <div
-          className="projects"
+          className="nav-link projects"
           onClick={() => {
             setIsPage("project");
           }}
@@ -49,7 +49,7 @@ const Navbar1 = () => {
         >
           <a href="#projects">Projects</a>
         </div>
-        <div className="div2"
+        <div className="nav-link contact"
         onClick={() => {
             setIsPage("Contact");
           }}

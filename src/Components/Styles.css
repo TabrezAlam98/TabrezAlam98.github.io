@@ -110,7 +110,7 @@ padding: 10px;
   display: flex;
   justify-content: space-around;
 }
-.nav-link.home{
+/* .nav-link.home{
   border: 1px solid rgb(153,44,73);
 }
 .nav-link.about{
@@ -124,6 +124,9 @@ padding: 10px;
 }
 .nav-link.contact{
   border: 1px solid rgb(153,44,73);
+} */
+.home div{
+  border: 2px solid green;
 }
 
 @media only screen and (min-width:0px) and (max-width:650px){
