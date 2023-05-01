@@ -57,7 +57,7 @@ function Hero() {
               src="/images/tabrez.jpeg"
               sx={{ width: 300, height: 300 }}
             />
-            {/* <img id="home-img" src="/images/tabrez.jpeg"/> */}
+            {/* <img className="home-img" src="/images/tabrez.jpeg"/> */}
           </HeroRight>
         </HeroWrapper>
        

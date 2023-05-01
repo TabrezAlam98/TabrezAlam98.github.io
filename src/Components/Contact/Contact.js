@@ -45,7 +45,7 @@ function Contact() {
           </h1>
           <div className="contacts">
             <div
-              className="linkedin"
+               id="contact-linkedin"
               style={{ width: "125px", display: "flex", margin: "auto" }}
             >
               <a style={{ fontSize: "22px", marginTop: "6px" }} href="https://www.linkedin.com/in/tabrez-alam-3b4176233/" target="_blank">
@@ -58,7 +58,7 @@ function Contact() {
               
             </div>
             <div
-              className="linkedin"
+            
               style={{ width: "120px", display: "flex", margin: "auto" }}
             >
               <a style={{ fontSize: "22px", marginTop: "6px" }}  href="https://github.com/TabrezAlam98" target="_blank">

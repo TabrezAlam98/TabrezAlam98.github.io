@@ -15,7 +15,7 @@ const CalendarAndStats = () => {
       >
         Days I Worked
       </h1>
-      <div
+      <div id="github-top-langs"
         style={{
           width: "270px",
           height: "3px",
@@ -53,7 +53,7 @@ const CalendarAndStats = () => {
           margin: "auto",
         }}
       ></div>
-      <div className="stats"  id="github-stats-card">
+      <div   id="github-stats-card" className="stats">
         <img
           align="center"
           src="https://github-readme-stats.vercel.app/api?username=TabrezAlam98&show_icons=true&locale=en"
@@ -83,7 +83,7 @@ const Container = styled.div`
 `;
 
 const MainContainer = styled.div`
-  .stats {
+  #github-stats-card {
     width: 80%;
     margin: auto;
     display: flex;
@@ -93,12 +93,12 @@ const MainContainer = styled.div`
   }
   
 
-  .stats > img {
+  #github-stats-card > img {
     padding: 20px 10px 20px 10px;
   }
 
   @media only screen and (min-width: 769px) and (max-width: 1110px) {
-    .stats {
+    #github-stats-card {
       flex-direction: column;
     }
   }
@@ -107,7 +107,7 @@ const MainContainer = styled.div`
     .calendar{
         width: 100%;
     }
-    .stats {
+   #github-stats-card {
       flex-direction: column;
     }
   }
@@ -116,14 +116,14 @@ const MainContainer = styled.div`
     .calendar{
         width: 100%;
     }
-    .stats {
+  #github-stats-card {
       width: 90%;
       flex-direction: column;
     }
   }
 
   @media only screen and (max-width: 319px) {
-    .stats {
+    #github-stats-card {
       width: 90%;
       flex-direction: column;
     }

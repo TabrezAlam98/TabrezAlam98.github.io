@@ -107,5 +107,8 @@ export const HeroRight = styled.div`
   }
  .home-img{
  border:1px solid rgb(131,40,57);
+ width:300px;
+ height:300px;
+ border-radius:50%;
  }
 `;

@@ -12,7 +12,7 @@ function Skills() {
   return (
     <>
     <ContactWrapper >
-      <div className="Container" id="skills skills-card" style={{border:'1px solid white'}} >
+      <div className="Container skills skills-card" style={{border:'1px solid white'}} >
         <div className="SectionTitle">
           <div
             style={{
