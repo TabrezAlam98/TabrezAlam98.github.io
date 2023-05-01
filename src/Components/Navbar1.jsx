@@ -1,8 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import "./Styles.css"; 
-
-
 const Navbar1 = () => {
   const [isPage, setIsPage] = useState("hero");
   return (<>
@@ -56,8 +53,8 @@ const Navbar1 = () => {
           style={isPage === "Contact" ? { color: "black" } : null}>
           <a href="#contact">Contact</a>
         </div>
-        <div className="resume">
-          <a
+        <div className="nav-link resume">
+          <a 
             // to="/files/Tabrez-Alam-Resume.pdf"
             href="https://drive.google.com/file/d/1wjdmzSpw8VOgXTuYlmQGE2A59dKmi841/view?usp=share_link"
              target="_blank"

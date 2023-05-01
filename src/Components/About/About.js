@@ -3,7 +3,7 @@ import Avatar from "@mui/material/Avatar";
 import { Image, ContactWrapper } from "./AboutElements";
 function About() {
   return (
-    <ContactWrapper id="about">
+    <ContactWrapper  className="about section" id="about">
       <div className="Container" style={{border:'1px solid white'}}>
         <div className="SectionTitle">
           <div

@@ -106,6 +106,6 @@ export const HeroRight = styled.div`
   transform:scale(1.1);
   }
  .home-img{
- border:1px solid black;
+ border:1px solid rgb(131,40,57);
  }
 `;

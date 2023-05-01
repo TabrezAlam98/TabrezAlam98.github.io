@@ -52,7 +52,7 @@ function Hero() {
           </HeroLeft>
           <HeroRight>
             <Avatar
-            id="home-img"
+            className="home-img"
               alt="tabrez photo"
               src="/images/tabrez.jpeg"
               sx={{ width: 300, height: 300 }}
