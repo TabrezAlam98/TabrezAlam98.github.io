@@ -3,7 +3,7 @@ import styled from "styled-components";
 import GithubCalendar from "react-github-calendar";
 const CalendarAndStats = () => {
   return (
-    <MainContainer >
+    <MainContainer className="stats">
       <h1 
       
       style={{
@@ -15,7 +15,7 @@ const CalendarAndStats = () => {
       >
         Days I Worked
       </h1>
-      <div id="github-top-langs"
+      <div 
         style={{
           width: "270px",
           height: "3px",
@@ -53,13 +53,13 @@ const CalendarAndStats = () => {
           margin: "auto",
         }}
       ></div>
-      <div   id="github-stats-card" className="stats">
-        <img
+      <div   id="github-stats-card" >
+        <img id="github-streak-stats"
           align="center"
           src="https://github-readme-stats.vercel.app/api?username=TabrezAlam98&show_icons=true&locale=en"
           alt="tabrez"
         />
-        <img
+        <img id="github-top-langs"
           align="center"
           src="https://github-readme-streak-stats.herokuapp.com/?user=TabrezAlam98&"
           alt="tabrez"

@@ -13,8 +13,8 @@ function ProjectCard() {
   return (
     <>
       {ProjectList.map((list, index) => (
-        <Card key={index}>
-          <CardLeft className="cardL project-card" >
+        <Card className="project-card" key={index}>
+          <CardLeft className="cardL " >
             <img src={list.img} alt={list.name} />
           </CardLeft>
           <CardRight>

@@ -51,13 +51,13 @@ function Hero() {
             <SocialIcon />
           </HeroLeft>
           <HeroRight>
-            <Avatar
+            {/* <Avatar
             className="home-img"
               alt="tabrez photo"
               src="/images/tabrez.jpeg"
               sx={{ width: 300, height: 300 }}
-            />
-            {/* <img className="home-img" src="/images/tabrez.jpeg"/> */}
+            /> */}
+            <img className="home-img" src="/images/tabrez.jpeg"/>
           </HeroRight>
         </HeroWrapper>
        

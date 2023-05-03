@@ -12,7 +12,7 @@ function Skills() {
   return (
     <>
     <ContactWrapper >
-      <div className="Container skills skills-card" style={{border:'1px solid white'}} >
+      <div className="Container skills-card" style={{border:'1px solid white'}} >
         <div className="SectionTitle">
           <div
             style={{
@@ -33,8 +33,8 @@ function Skills() {
           <Technologies>
             {stackList.map((stack, index) => (
               <Tech key={index} className="tech">
-                <TechImg src={stack.img} alt={stack.name}  />
-                <TechName>{stack.name}</TechName>
+                <TechImg className="skills-card-img" src={stack.img} alt={stack.name}  />
+                <TechName className="skills-card-name">{stack.name}</TechName>
               </Tech>
             ))}
           </Technologies>

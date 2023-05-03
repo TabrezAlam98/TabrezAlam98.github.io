@@ -29,7 +29,7 @@ function About() {
               sx={{ width: 150, height: 150 }}
             />
           </Image>
-          <div className="AboutBio">
+          <div className="AboutBio" id="user-detail-intro">
             <div
               style={{
                 fontSize: "28px",
@@ -38,7 +38,7 @@ function About() {
             >
               Hello! I am Tabrez
             </div>
-            who enjoys coding and solving problems.As an aspiring Full Stack Web
+            Who enjoys coding and solving problems. As an aspiring Full Stack Web
             developer, I like the impact it creates on the world. <br></br>One
             of my strongest skills is creativity and it helps me a lot in web
             designs I have created various end to end website clone using{" "}
