@@ -53,13 +53,13 @@ const CalendarAndStats = () => {
           margin: "auto",
         }}
       ></div>
-      <div   id="github-stats-card" >
-        <img id="github-streak-stats"
+      <div id="github-streak-stats">
+        <img id="github-top-langs"
           align="center"
           src="https://github-readme-stats.vercel.app/api?username=TabrezAlam98&show_icons=true&locale=en"
           alt="tabrez"
         />
-        <img id="github-top-langs"
+        <img id="github-stats-card"
           align="center"
           src="https://github-readme-streak-stats.herokuapp.com/?user=TabrezAlam98&"
           alt="tabrez"
