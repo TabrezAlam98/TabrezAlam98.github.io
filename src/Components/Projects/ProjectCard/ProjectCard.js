@@ -26,7 +26,7 @@ function ProjectCard() {
             </Stack>
             <BtnGroup>
               <a
-                className="btn btn2 SecondarBtn"
+                className="btn btn2 SecondarBtn project-github-link"
                 href={list.github_url}
                 target="_blank"
                 rel="noopener noreferrer"

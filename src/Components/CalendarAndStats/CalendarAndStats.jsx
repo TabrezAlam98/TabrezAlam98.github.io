@@ -5,8 +5,7 @@ const CalendarAndStats = () => {
   return (
     <MainContainer className="stats">
       <h1 
-      
-      style={{
+       style={{
          textTransform:"uppercase",
         textAlign:"center",
         fontSize:"40px",
@@ -53,13 +52,13 @@ const CalendarAndStats = () => {
           margin: "auto",
         }}
       ></div>
-      <div id="github-streak-stats">
-        <img id="github-top-langs"
+      <div id="github-stats">
+        <img id=" github-top-langs github-stats-card"
           align="center"
           src="https://github-readme-stats.vercel.app/api?username=TabrezAlam98&show_icons=true&locale=en"
           alt="tabrez"
         />
-        <img id="github-stats-card"
+        <img  id="github-streak-stats"
           align="center"
           src="https://github-readme-streak-stats.herokuapp.com/?user=TabrezAlam98&"
           alt="tabrez"
@@ -83,7 +82,7 @@ const Container = styled.div`
 `;
 
 const MainContainer = styled.div`
-  #github-stats-card {
+  #github-stats {
     width: 80%;
     margin: auto;
     display: flex;
@@ -93,12 +92,12 @@ const MainContainer = styled.div`
   }
   
 
-  #github-stats-card > img {
+  #github-stats > img {
     padding: 20px 10px 20px 10px;
   }
 
   @media only screen and (min-width: 769px) and (max-width: 1110px) {
-    #github-stats-card {
+    #github-stats {
       flex-direction: column;
     }
   }
@@ -107,7 +106,7 @@ const MainContainer = styled.div`
     .calendar{
         width: 100%;
     }
-   #github-stats-card {
+   #github-stats {
       flex-direction: column;
     }
   }
@@ -116,14 +115,14 @@ const MainContainer = styled.div`
     .calendar{
         width: 100%;
     }
-  #github-stats-card {
+  #github-stats {
       width: 90%;
       flex-direction: column;
     }
   }
 
   @media only screen and (max-width: 319px) {
-    #github-stats-card {
+    #github-stats {
       width: 90%;
       flex-direction: column;
     }
