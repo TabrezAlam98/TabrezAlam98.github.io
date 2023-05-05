@@ -13,6 +13,10 @@ import {
   HeroRight,
 } from "./HeroElements";
 function Hero() {
+  const handleClick = () =>{
+    window.open("/files/Tabrez-Alam-Resume.pdf")
+    window.location.href='https://drive.google.com/file/d/1wjdmzSpw8VOgXTuYlmQGE2A59dKmi841/view?usp=share_link'
+  }
   return (
     <>
     <div  id="home">
@@ -30,23 +34,17 @@ function Hero() {
             <p style={{ fontWeight: "500" ,marginTop:'10px'}}>Phone - 9554445594</p>
             <p style={{ fontWeight: "500" ,marginTop:'10px'}}>Email - tabrezalamyci1@gmail.com</p>
             <div className="download"    >
-              <Link
-              
-                to="/files/Tabrez-Alam-Resume.pdf"
-                className="btn btn--outline"
-                target="_blank"
+              <button
+                // to="/files/Tabrez-Alam-Resume.pdf"
+                 className="btn btn--outline"
+                 target="_blank"
+                onClick={handleClick}
                 download
+                id='resume-button-2'
               >
                 Resume
-              </Link>
+              </button>
             </div>
-            {/* <div className="download">
-              <a href={`mailto:tabrezalamyci1@gmail.com`}>
-                <span type='button' className='btn btn--outline'>
-                  Email me
-                </span>
-              </a>
-            </div> */}
 
             <SocialIcon />
           </HeroLeft>

@@ -72,8 +72,15 @@ export const HeroLeft = styled.div`
   .download{
     background-color:rgb(131,40,57);
     margin-top:20px;
+    height:55px;
+    padding-top:1px;
+   
    }
+  //  .download button{
+  //   height:30px;
+  //  }
   .btn{
+   
     color:white;
   }
 
