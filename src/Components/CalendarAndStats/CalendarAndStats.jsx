@@ -53,7 +53,7 @@ const CalendarAndStats = () => {
         }}
       ></div>
       <div id="github-stats">
-        <img id=" github-top-langs github-stats-card"
+        <img id="github-top-langs github-stats-card"
           align="center"
           src="https://github-readme-stats.vercel.app/api?username=TabrezAlam98&show_icons=true&locale=en"
           alt="tabrez"
