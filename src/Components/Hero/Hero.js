@@ -15,7 +15,7 @@ import {
 function Hero() {
   const handleClick = () =>{
     window.open("/files/Tabrez-Alam-Resume.pdf")
-    window.location.href='https://drive.google.com/file/d/1wjdmzSpw8VOgXTuYlmQGE2A59dKmi841/view?usp=share_link'
+    // window.location.href='https://drive.google.com/file/d/1wjdmzSpw8VOgXTuYlmQGE2A59dKmi841/view?usp=share_link'
   }
   return (
     <>
@@ -36,10 +36,10 @@ function Hero() {
             <div className="download"    >
               <button
                 // to="/files/Tabrez-Alam-Resume.pdf"
+                onClick={handleClick}
+                value="download"
                  className="btn btn--outline"
                  target="_blank"
-                onClick={handleClick}
-                download
                 id='resume-button-2'
               >
                 Resume
